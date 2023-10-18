@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="fixed-button" onclick="toggleMain2()"><i class="bi  bi-chat-fill" style="font-size: 1.5rem; color:white";></i></button>
+      <script>
+          function toggleMain2() {
+            var main2 = document.querySelector('.main2');
+            main2.style.display = (main2.style.display === 'block') ? 'none' : 'block';
+          }
+        </script>
+        <div class="main2" id="subButtons" onclick="redirectToWhatsApp()">
+            <div class="margin">
+                <span class="whatsapp">Whatsapp</span>
+            <button class="sub-button" id="Whatsapp"><i class="bi bi-whatsapp" style="font-size: 1.5rem;"></i></button>
+        </div>
+        <script>
+            function redirectToWhatsApp() {
+              window.open('https://api.whatsapp.com/send/?phone=1234567890&text=Merhaba&type=phone_number&app_absent=0', '_blank');
+            }
+            </script>
+        <div class="margin">
+            <span class="instagram">İnstagram</span>
+            <button class="sub-button" id="İnstagram" onclick="redirectToInstagram()"><i class="bi bi-instagram" style="font-size: 1.5rem;"></i></button>      
+        </div>
+        <script>
+            function redirectToInstagram() {
+              window.open('https://www.instagram.com/', '_blank');
+            }
+            </script>
+        <div class="margin">
+            <span class="youtube">Youtube</span>
+            <button class="sub-button" id="Youtube" onclick="redirectToYoutube()"><i class="bi bi-youtube" style="font-size: 2rem;"></i></button>
+        </div>
+        <script>
+            function redirectToYoutube() {
+              window.open('https://www.youtube.com/', '_blank');
+            }
+            </script>
+        <div class="margin">
+            <span class="arama">Bizi Arayın</span>
+            <button class="sub-button" id="Arama" onclick="window.location.href='tel:+123456789'"> <i class="bi bi-telephone" style="font-size: 1.5rem;"></i> </button>
+        </div>
+        <div class="margin">
+            <span class="konum">Konum Bilgisi</span>
+            <button class="sub-button" id="Konum" onclick="redirectToKonum()"><i class="bi bi-geo-alt-fill" style="font-size: 1.5rem;"></i></button>
+        </div>
+        <script>
+            function redirectToKonum() {
+              window.open('https://www.google.com/maps', '_blank');
+            }
+            </script>
+        </div>
+</body>
+</html>

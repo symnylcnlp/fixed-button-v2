@@ -1,0 +1,209 @@
+.fixed-button {
+    position: fixed;
+    background: rgb(242, 255, 0);
+    color: #FFF;
+    right: 27px;
+    bottom: 90px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all .1s ease;
+    cursor: pointer;
+    z-index: 3;
+      }
+      .main2 {
+        display: none;
+        position:fixed;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        padding: 20px;
+        border-radius: 10px;
+        z-index: 2; /* Butonun altında kalacak şekilde daha düşük bir z-indeks değeri */
+        gap: 0.5em;
+      }
+      .margin{
+        margin-bottom: 15px;
+      }
+      .sub-button{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        z-index: 1;
+      }
+      #Whatsapp{
+        margin-left: 45px;
+        background-color:#25d366;
+        color:white;
+        overflow: hidden;
+      }
+      .whatsapp{
+        border: 1px solid #25d366;
+        background-color:#25d366;
+        color:white;
+        border-width: 5px;
+        border-radius: 5px;
+      }
+      #İnstagram{
+        margin-left: 45px;
+        color: white;
+        background: #f09433; 
+        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+      }
+      .instagram{
+        border: 1px solid #cc2366;
+        color: white;
+        background: #cc2366;
+        border-width: 5px;
+        border-radius: 5px;
+      }
+      #Youtube{
+        background-color:white;
+        color:#bb0000;
+        margin-left: 55px;
+      }
+      .youtube{
+        border: 1px solid #bb0000;
+        background-color:#bb0000;
+        color:white;
+        border-width: 5px;
+        border-radius: 5px;
+      }
+      #Arama{
+        background-color:dodgerblue;
+        color:white;
+        margin-left: 35px;
+      }
+      .arama{
+        border: 1px solid dodgerblue;
+        background-color:dodgerblue;
+        color:white;
+        border-width: 5px;
+        border-radius: 5px;
+      }
+      #Konum{
+        background-color:white;
+        color:#bb0000;
+        margin-left: 20px;
+      }
+      .konum{
+        border: 1px solid #bb0000;
+        background-color:#bb0000;
+        color:white;
+        border-width: 5px;
+        border-radius: 5px;
+      }
+      @media only screen and (max-width: 600px) {
+        .fixed-button {
+          position: fixed;
+          background: rgb(242, 255, 0);
+          color: #FFF;
+          right: 27px;
+          bottom: 90px;
+          height: 50px;
+          width: 50px;
+          border-radius: 100px;
+          box-shadow: 0 5px 18px rgba(0, 0, 0, .3);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          transition: all .1s ease;
+          cursor: pointer;
+          z-index: 3;
+            }
+            .main2 {
+              display: none;
+              position:fixed;
+              top: 65%;
+              right: 20px;
+              transform: translate(0, -50%);
+              padding: 20px;
+              border-radius: 10px;
+              z-index: 2; /* Butonun altında kalacak şekilde daha düşük bir z-indeks değeri */
+              gap: 0.5em;
+            }
+            .margin{
+              margin-bottom: 15px;
+            }
+            .sub-button{
+              width: 50px;
+              height: 50px;
+              border-radius: 100px;
+              z-index: 1;
+            }
+            #Whatsapp{
+              margin-left: 45px;
+              background-color:#25d366;
+              color:white;
+              overflow: hidden;
+            }
+            .whatsapp{
+              border: 1px solid #25d366;
+              background-color:#25d366;
+              color:white;
+              border-width: 5px;
+              border-radius: 5px;
+            }
+            #İnstagram{
+              margin-left: 45px;
+              color: white;
+              background: #f09433; 
+              background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+              background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+              background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+            }
+            .instagram{
+              border: 1px solid #cc2366;
+              color: white;
+              background: #cc2366;
+              border-width: 5px;
+              border-radius: 5px;
+            }
+            #Youtube{
+              background-color:white;
+              color:#bb0000;
+              margin-left: 55px;
+            }
+            .youtube{
+              border: 1px solid #bb0000;
+              background-color:#bb0000;
+              color:white;
+              border-width: 5px;
+              border-radius: 5px;
+            }
+            #Arama{
+              background-color:dodgerblue;
+              color:white;
+              margin-left: 35px;
+            }
+            .arama{
+              border: 1px solid dodgerblue;
+              background-color:dodgerblue;
+              color:white;
+              border-width: 5px;
+              border-radius: 5px;
+            }
+            #Konum{
+              background-color:white;
+              color:#bb0000;
+              margin-left: 20px;
+            }
+            .konum{
+              border: 1px solid #bb0000;
+              background-color:#bb0000;
+              color:white;
+              border-width: 5px;
+              border-radius: 5px;
+            }
+       
+    }
